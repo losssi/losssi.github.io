@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+
+
+<div id="main" role="main">
+  {% if page.author_profile or layout.author_profile or page.sidebar %}
+    <div class="sidebar sticky">
+    {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+    {% if page.sidebar %}
+      {% for s in page.sidebar %}
+        {% if s.image %}
+          <img src="{{ s.image | relative_url }}"
+               alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+        {% endif %}
+        {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+        {% if s.text %}{{ s.text | markdownify }}{% endif %}
+        {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+      {% endfor %}
+      {% if page.sidebar.nav %}
+        {% include nav_list nav=page.sidebar.nav %}
+      {% endif %}
+    {% endif %}
+    </div>
+  {% endif %}
+
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+
+    <section class="page__content" itemprop="text">
+
+
+      <div class="archive">
+      {{ content }}
+      </div>
+    </section>
+
+  </article>
+</div>
