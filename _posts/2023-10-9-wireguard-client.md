@@ -2,9 +2,10 @@
 layout: single
 tags: VPN
 title: Install Wireguard Client
+excerpt: Wireguard server is already installed. Server and client are Debian or Ubuntu based.
 related: true
 ---
-***Time 15 min***
+***Time: 15 min***
 
 Wireguard server is already installed. Server and client are Debian or Ubuntu based.
 

@@ -3,6 +3,8 @@ layout: single
 tags: termux
 title: Install Nerd Fonts to Termux
 related: true
+header:
+  teaser: /assets/images/posts/Termux.jpg
 ---
 
 ![](/assets/images/posts/Termux.jpg)
