@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +10,38 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: Blog
+    url: /blog/
+  - title: Tags
+    url: /tags/
+  - title: Projects
+    url: /projects/
+ # - title: Portfolio
+ #   url: /portfolio/
+
+sidebar-esprimo:
+  - title: "Server OS"
+    children:
+      - title: "Alpine Linux"
+        url: projects/2019-11-26-custom-alpine-server/#alpine-linux
+      - title: "Alpine Server"
+        url: projects/2019-11-26-custom-alpine-server/#alpine-server
+
+  - title: "Server base configuration"
+    children:
+      - title: "Dynamic DNS"
+        url: projects/2019-11-26-custom-alpine-server/#dynamic-dns
+      - title: "OpenVPN"
+        url: projects/2019-11-26-custom-alpine-server/#openvpn
+      - title: "SSHFS"
+        url: projects/2019-11-26-custom-alpine-server/#sshfs
+      - title: "ACF"
+        url: projects/2019-11-26-custom-alpine-server/#acf
+  - title: "Docker Installation"
+    children:
+      - title: "Docker & docker-compose"
+        url: projects/2019-11-26-custom-alpine-server/#docker--docker-compose
+  - title: "Nextcloud installation"
+    children:
+      - title: "Nextcloud & Collabora/CODE"
+        url: projects/2019-11-26-custom-alpine-server/#nextcloud--collaboracode
