@@ -69,7 +69,7 @@ Since my intention is mostly edit Docker config files and I prefer graphical edi
 ```shell
 sshfs <user>@<serverip>:<folder>
 ```
-![](assets/images/esprimo/Sub.png)
+![](/assets/images/esprimo/Sub.png)
 
 ### ACF
 ACF is Alpines own monitoring software also for remote monitoring. It uses its own mini_httpd web server. It's nice to peek what's going on on the server. I moved it to port 4443 leaving 443 free for the internet services I was going to install with Docker.
