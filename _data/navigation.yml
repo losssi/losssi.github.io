@@ -23,25 +23,25 @@ sidebar-esprimo:
   - title: "Server OS"
     children:
       - title: "Alpine Linux"
-        url: projects/2019-11-26-custom-alpine-server/#alpine-linux
+        url: projects/2020-custom-alpine-server/#alpine-linux
       - title: "Alpine Server"
-        url: projects/2019-11-26-custom-alpine-server/#alpine-server
+        url: projects/2020-custom-alpine-server/#alpine-server
 
   - title: "Server base configuration"
     children:
       - title: "Dynamic DNS"
-        url: projects/2019-11-26-custom-alpine-server/#dynamic-dns
+        url: projects/2020-custom-alpine-server/#dynamic-dns
       - title: "OpenVPN"
-        url: projects/2019-11-26-custom-alpine-server/#openvpn
+        url: projects/2020-custom-alpine-server/#openvpn
       - title: "SSHFS"
-        url: projects/2019-11-26-custom-alpine-server/#sshfs
+        url: projects/2020-custom-alpine-server/#sshfs
       - title: "ACF"
-        url: projects/2019-11-26-custom-alpine-server/#acf
+        url: projects/2020-custom-alpine-server/#acf
   - title: "Docker Installation"
     children:
       - title: "Docker & docker-compose"
-        url: projects/2019-11-26-custom-alpine-server/#docker--docker-compose
+        url: projects/2020-custom-alpine-server/#docker--docker-compose
   - title: "Nextcloud installation"
     children:
       - title: "Nextcloud & Collabora/CODE"
-        url: projects/2019-11-26-custom-alpine-server/#nextcloud--collaboracode
+        url: projects/2020-custom-alpine-server/#nextcloud--collaboracode
