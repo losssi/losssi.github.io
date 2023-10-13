@@ -324,6 +324,7 @@ defaults:
       author_profile: false
       share: true
       read_time: true
+      comments:  true
 
 defaults:
   # _portfolio
