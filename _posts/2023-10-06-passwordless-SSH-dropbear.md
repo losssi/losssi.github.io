@@ -4,6 +4,7 @@ tags: SSH dropbear
 title: Passwordless SSH client on Termux with dropbear
 excerpt: This is a bit trickier than using OpenSSH, because you can't use ssh-copy-id, you have to add the id on the server manually.
 related: true
+comments: true
 header:
   teaser: /assets/images/posts/Dropbear.jpg
 ---

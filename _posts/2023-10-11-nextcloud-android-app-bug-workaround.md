@@ -4,6 +4,7 @@ tags: android nextcloud
 title: Workaround for Nextcloud Android Client Hogging Space
 excerpt: Afaik there are two ways to deal with Nextcloud Android client using over 50 GB (for me) space on phone.
 related: true
+comments: true
 header:
   teaser: /assets/images/posts/icon_nextcloud.png
 ---

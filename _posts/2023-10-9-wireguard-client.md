@@ -4,6 +4,7 @@ tags: VPN
 title: Install Wireguard Client
 excerpt: Wireguard server is already installed. Server and client are Debian or Ubuntu based.
 related: true
+comments: true
 header:
   teaser: /assets/images/posts/icon_wireguard.svg
 ---
