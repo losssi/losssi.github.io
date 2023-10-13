@@ -9,7 +9,7 @@ header:
 ---
 ![](/assets/images/posts/icon_wireguard.svg)
 
-***Time: 15 min***
+***Time: 20 min***
 
 Wireguard server is already installed. Server and client are Debian or Ubuntu based.
 
@@ -24,9 +24,9 @@ apt install wireguard resolvconf
 ```shell
 cd /etc/wireguard
 wg genkey | tee privatekey | wg pubkey > publickey
-wg show
+cat pubkey
 ```
-3 Write the configuration file and copy client private key and server public key to it
+3 Write the configuration file and copy client private key and server public key to it.
 ```shell
 #/etc/wireguard/wg0.conf
 
