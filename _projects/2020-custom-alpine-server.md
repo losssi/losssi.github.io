@@ -3,7 +3,7 @@ layout: single
 title: Custom Alpine Server
 tags: server VPN docker nextcloud
 read_time: true
-
+comments: true
 sidebar:
   title: "Cloud Server <br>with Office Software"
   nav: sidebar-esprimo
