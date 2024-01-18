@@ -6,9 +6,10 @@ excerpt:
 related: true
 comments: true
 header:
-  teaser:
+  teaser: /assets/images/posts/Docker.png
 ---
-**How to install Docker engine on a Debian-based (in this case MX Linux 23.1) distro**
+![](/assets/images/posts/Docker.png)
+**How to install Docker Engine on a Debian-based (in this case MX Linux 23.1) distro**
 
 ***Time: 5 min***
 
