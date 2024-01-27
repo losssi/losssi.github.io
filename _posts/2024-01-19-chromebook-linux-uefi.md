@@ -6,7 +6,7 @@ excerpt: Flashing UEFI on models Acer Chromebook 15, HP Chromebook 11 G3/G4 and 
 related: true
 comments: true
 header:
-  teaser: /assets/images/posts/chromebook/chromebooks_thumb.jpg
+  teaser: /assets/images/posts/chromebook/chromebooks.jpg
 ---
 ![](/assets/images/posts/chromebook/chromebooks.jpg)
 
